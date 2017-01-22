@@ -1,2 +1,2 @@
 # uwp-demo
-ZhangGaoxing's UWP Examples
+ZhangGaoxing's UWP samples
