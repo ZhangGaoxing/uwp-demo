@@ -4,7 +4,23 @@
     xmlns:local="using:WOL.UWP.Style">
 
     <ResourceDictionary.ThemeDictionaries>
-        <ResourceDictionary x:Key="Default">
+        <!--<ResourceDictionary x:Key="Default">
+            <AcrylicBrush x:Key="MyThemeAcrylicBrush"
+                TintColor="{ThemeResource SystemChromeMediumLowColor}"
+                TintOpacity="0.6"
+                FallbackColor="{ThemeResource SystemChromeMediumLowColor}"
+                BackgroundSource="HostBackdrop" />
+        </ResourceDictionary>-->
+
+        <ResourceDictionary x:Key="Light">
+            <AcrylicBrush x:Key="MyThemeAcrylicBrush"
+                TintColor="{ThemeResource SystemChromeMediumLowColor}"
+                TintOpacity="0.6"
+                FallbackColor="{ThemeResource SystemChromeMediumLowColor}"
+                BackgroundSource="HostBackdrop" />
+        </ResourceDictionary>
+
+        <ResourceDictionary x:Key="Dark">
             <AcrylicBrush x:Key="MyThemeAcrylicBrush"
                 TintColor="{ThemeResource SystemChromeMediumLowColor}"
                 TintOpacity="0.6"

@@ -30,7 +30,7 @@ namespace AcrylicBrushDemo
         private void ToggleSwitch_Toggled(object sender, RoutedEventArgs e)
         {
             ToggleSwitch t = sender as ToggleSwitch;
-
+            myStoryboard.Begin();
             if (t.IsOn == true)
             {
                 ((Frame)Window.Current.Content).RequestedTheme = ElementTheme.Dark;
